@@ -10,12 +10,18 @@ namespace Mi_Primer_Proyecto
     {
         static void Main(string[] args)
         {
-            //Prioridad de los operadores aritmeticos.
-            //se pone el sufijo m para la division con decimales.
-            decimal respuesta = 5 + 8 - 2 * 5 / 4m + 1;
-            Console.WriteLine("La respuesta es: {0}", respuesta);
+            //Ejercicio de obtener la nota final de la materia de Programacion I.
+            Console.Write("Lab1: ");
+            double lab1 = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("La division de 5/4 es {0}", 5 / 4);
+            Console.Write("Lab2: ");
+            double lab2 = double.Parse(Console.ReadLine());
+
+            Console.Write("Parcial 1: ");
+            double parcial1 = double.Parse(Console.ReadLine()); //7
+
+            double c1 = lab1 * 30 / 100 + lab2 * 30 / 100 + parcial1 * 40 / 100;
+            Console.WriteLine("La nota de C1 es: {0}", c1);
 
             //Hace una pausa en la consola lo cual nos permite leer lo que se imprime
             Console.ReadLine();
