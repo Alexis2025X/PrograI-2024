@@ -10,16 +10,16 @@ namespace Mi_Primer_Proyecto
     {
         static void Main(string[] args)
         {
-            //Ejerecicio de suma de dos numeros introducidos por el usuario
-            Console.Write("Num 1: ");
-            sbyte num1 = sbyte.Parse(Console.ReadLine()); //"5" -> 5
+            Boolean comprobar = true;
+            Console.WriteLine("El valor es: {0}", comprobar);
 
-            //.Parse transforma la cadena a numero
-            Console.Write("Num 2: ");
-            sbyte num2 = sbyte.Parse(Console.ReadLine());
+            Console.Write("Nombre: ");
+            string nombre = Console.ReadLine();
+            Console.WriteLine("Hola {0} bienvenido", nombre);
 
-            int respuesta = num1 + num2;
-            Console.WriteLine("La suma de {0}+{1}={2}", num1, num2, respuesta);
+            DateTime fechaActual = new DateTime();
+            fechaActual = DateTime.Now;
+            Console.WriteLine("La fecha actual es: {0}", fechaActual);
         }
     }
 }
