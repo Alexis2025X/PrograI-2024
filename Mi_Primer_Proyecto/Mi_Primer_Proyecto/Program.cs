@@ -34,7 +34,7 @@ namespace Mi_Primer_Proyecto
                  Console.WriteLine("Larga vida");
             }
 
-            Console.Write("Desea continuar? si desea continuar presione s sino quiere continuar pr ");
+            Console.Write("Desea continuar? si desea continuar presione s sino quiere continuar presione cualquir tecla. \n\n ");
                 //Continuar
                 continuar = Console.ReadLine();
              }
