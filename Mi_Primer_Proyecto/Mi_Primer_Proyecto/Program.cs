@@ -10,14 +10,19 @@ namespace Mi_Primer_Proyecto
     {
         static void Main(string[] args)
         {
-       //Ejercicio obtener el promedio de una serie de numeros
-            int[] serie = new int[] { 5, 4, 6, 8, 9 }; //matriz, esta se indica con []
-            int suma = 0;
-            foreach (int num in serie){
-                suma = suma + num; //suma y asignación, tambien se puede hacer así: suma += num;
+            //Estructuras de control
+            //1.If. Ejercicio. pedir al usuario la edad si es mayor de edad que le diga bienvenido.
+            Console.Write("Edad: ");
+            int edad = int.Parse(Console.ReadLine());
+
+            if (edad >= 18)
+            {
+                Console.WriteLine("Bienvenido al mundo de las responsabilidades");
             }
-            decimal prom = (suma / serie.Length);
-            Console.WriteLine("La suma es: {0}, el promedio {1}", suma, prom); //m nos ayuda  a establecer decimales, Length da la logitud de una matriz
+            else
+            {
+                    Console.WriteLine("Eres un adolescente");
+            }
 
             //Hace una pausa en la consola lo cual nos permite leer lo que se imprime
             Console.ReadLine();
