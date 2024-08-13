@@ -12,9 +12,12 @@ namespace Mi_Primer_Proyecto
         {
             //Uso de matrices
             int[] numeros = new int[] { 2, 8, 9, 10, 1, 3 };
-            Console.WriteLine("El numero de la posicion 3 es {0}", numeros [3]);
-            //Pausa
-            Console.ReadKey();
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                Console.WriteLine("Indice: {0}={1}", i, numeros[i]);
+            }
+                //Pausa
+                Console.ReadKey();
             
         }
     }
