@@ -10,52 +10,27 @@ namespace Mi_Primer_Proyecto
     {
         static void Main(string[] args)
         {
-            //Uso de matrices
-            double[,] matriz = new double[,] {
-                {0.01, 472.00, 0, 0}, //Tramo I
-                {472.01,  895.24,  10,  17.67}, //Tramo II
-                {895.25,  2038.10, 20,  60.00}, //Tramo III
-                {2038.11, 9999999, 30, 288.57}, //Tramo IV
-            };
-            Console.Write("Sueldo: ");
-            double sueldo = double.Parse(Console.ReadLine()),
-                afp = sueldo * 7.25 / 100,
-                isss = sueldo * 3 / 100,
-               
-                isr = 0;
-
-
-            //Console.WriteLine(isss + " " + afp);
+            //Obtener la secuencia fibonacci
+            int a = 0, b = 1, c = 1;
             /*
-            for (int j = 0; j < 4; j++)
+              a+b=c
+              0+1=1
+              1+0=1
+              1+1=2
+              2+1=3
+              3+2=5
+              5+3=5
+              8+5=5
+             */
+            while (c <100 )
             {
-                if (sueldo >= matriz[j, 0] && sueldo <= matriz[j, 1])
-                {
-                    afp = (sueldo -(32.51 + 15.60));
-                }
-                else
-                {
-                    afp = (sueldo - (50.00 + 24.00));
-                }
-            }
-            */
+                Console.WriteLine("{0}+{1}={2}", a, b, c);
+                b = a;
+                a = c;
+                c = a + b;
 
-            sueldo -= afp;
-            
-            
-            for (int i = 0; i < 4; i++)
-            {
-                if (sueldo >= matriz[i, 0] && sueldo <= matriz[i, 1])
-                {
-                    isr = (sueldo - (matriz[i, 0] - 0.01)) * matriz[i, 2] / 100 + matriz[i, 3];
-                }
             }
-            
-             sueldo -= isss;
-             sueldo -= isr;
-            Console.WriteLine(isss + " " + isr + "\n");
-             Console.WriteLine("Sueldo Neto: {0}, AFP: {1}, ISSS: {2}, ISR: {3}", Math.Round(sueldo, 2), afp, isss, Math.Round(isr, 2));
-
+           
              Console.ReadLine();
 
         }
