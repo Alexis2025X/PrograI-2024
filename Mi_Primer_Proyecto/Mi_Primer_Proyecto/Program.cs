@@ -12,29 +12,48 @@ namespace Mi_Primer_Proyecto
         {
             //Uso de matrices
             double[,] matriz = new double[,] {
-                {0.01, 487.60, 0, 0},
-                {487.61, 642.85, 10, 17.48},
-                {642.86, 915.81, 10, 32.70},
-                {915.82, 2058.67, 20, 60.00 },
-                {2058.68, 9999999, 30, 288.57},
+                {0.01, 472.00, 0, 0}, //Tramo I
+                {472.01,  895.24,  10,  17.67}, //Tramo II
+                {895.25,  2038.10, 20,  60.00}, //Tramo III
+                {2038.11, 9999999, 30, 288.57}, //Tramo IV
             };
             Console.Write("Sueldo: ");
             double sueldo = double.Parse(Console.ReadLine()),
-                afp = sueldo * 6.25 / 100,
+                afp = sueldo * 7.25 / 100,
                 isss = sueldo * 3 / 100,
+               
                 isr = 0;
-            sueldo -= afp;
 
-            for (int i = 0; i < 5; i++)
+
+            //Console.WriteLine(isss + " " + afp);
+            /*
+            for (int j = 0; j < 4; j++)
+            {
+                if (sueldo >= matriz[j, 0] && sueldo <= matriz[j, 1])
+                {
+                    afp = (sueldo -(32.51 + 15.60));
+                }
+                else
+                {
+                    afp = (sueldo - (50.00 + 24.00));
+                }
+            }
+            */
+
+            sueldo -= afp;
+            
+            
+            for (int i = 0; i < 4; i++)
             {
                 if (sueldo >= matriz[i, 0] && sueldo <= matriz[i, 1])
                 {
                     isr = (sueldo - (matriz[i, 0] - 0.01)) * matriz[i, 2] / 100 + matriz[i, 3];
                 }
             }
-
+            
              sueldo -= isss;
              sueldo -= isr;
+            Console.WriteLine(isss + " " + isr + "\n");
              Console.WriteLine("Sueldo Neto: {0}, AFP: {1}, ISSS: {2}, ISR: {3}", Math.Round(sueldo, 2), afp, isss, Math.Round(isr, 2));
 
              Console.ReadLine();
