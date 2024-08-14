@@ -9,20 +9,23 @@ namespace Mi_Primer_Proyecto
     class Program
     {
         static void Main(string[] args)
-        { //determinar si cada numero de la serie es par o impar
-            int[] serie = new int[] { 5, 9, 4, 6, 3, 2 };
+        { //determinar si cada numero de la serie es primo
+            int[] serie = new int[] { 5, 9, 4, 6, 3, 2, 7, 11, 15, 17, 21};
             foreach (int num in serie)
-            { //modulo= % extrae el residuio
-                // if ternario = ?
-                // verdadero : falso
-                Console.WriteLine("El num {0} es {1}", num, num % 2 == 0 ? "Par" : "Impar");
-
-                // verdadero : falso
+            { int i = 1,
+                n = 0;
+                // Y, And = &&
+                while(i<=num && n <= 2)
+                {
+                    if(num % i == 0)
+                    {
+                        n++;
+                    }
+                    i++;
+                }
+                Console.WriteLine("El numero {0} es {1}", num, n <= 2 ? "Primo" : "No es primo");
                 
-
             }
-           
-
             Console.ReadLine();
 
         }
