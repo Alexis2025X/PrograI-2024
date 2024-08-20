@@ -11,30 +11,38 @@ namespace Mi_Primer_Proyecto
         static void Main(string[] args)
         {
 
-            //Uso de funciones
-            //Suma sin parametros
-            Console.WriteLine("La suma de 10+5 = {0}", suma());
-            
+            //Uso de funciones y matrices
+            //Ejercicio para encontrar la media aritmetica en la desviación tipica de una serie de numeros
+
+            int[] serie = new int[] { 1, 2, 3, 4, 5 };
+            Console.WriteLine("La media aritmetica es: {0}, y la desviación tipica es: {1}", media(serie), tipica(serie));
+
             Console.ReadLine();
-
-            Console.Write("Num 1: ");
-            int num1 = int.Parse(Console.ReadLine());
-            
-            Console.Write("Num 2: ");
-            int num2 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("La suma de {0}+{1} = {2}", num1, num2, suma2(num1, num2));
+           
         }
-        static int suma()
+        static double media(int[] serie)
         {
-            int respuesta = 10 + 5;
-            return respuesta;
+            double media = 0;
+            foreach(int num in serie)
+            {
+                media += num;
+            }
+            return media / serie.Length;
+                
         }
-        //Suma con parametros
-        static int suma2 (int a, int b)
+        static double tipica(int[] serie)
         {
-            int respuesta = a + b;
-            return respuesta;
+            double tipica = 0;
+            double m = media(serie);
+            foreach (int num in serie)
+            { // Math.Pow eleva a la potencia que querramos
+                tipica += Math.Pow(num - m, 2);
+            }
+            //Math.Sqrt es para raíz cuadrada
+            tipica = Math.Sqrt(tipica / serie.Length);
+            tipica = Math.Round(tipica);
+
+            return tipica;
         }
     }
 }
