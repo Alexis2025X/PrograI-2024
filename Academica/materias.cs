@@ -145,5 +145,10 @@ namespace academica
                 }
             }
         }
+
+        private void txtBuscarMaterias_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

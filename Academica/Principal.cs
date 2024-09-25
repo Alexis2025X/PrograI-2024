@@ -35,5 +35,17 @@ namespace academica
             objForm.MdiParent = this;
             objForm.Show();
         }
+
+        private void docentesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            docentes objForm = new docentes();
+            objForm.MdiParent = this;
+            objForm.Show();
+        }
+
+        private void principal_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
-namespace Academica
+namespace academica
 {
-    partial class Principal
+    partial class principal
     {
         /// <summary>
         /// Required designer variable.
@@ -48,7 +48,7 @@ namespace Academica
             this.aplicaciónToolStripMenuItem});
             this.mnxAcademica.Location = new System.Drawing.Point(0, 0);
             this.mnxAcademica.Name = "mnxAcademica";
-            this.mnxAcademica.Size = new System.Drawing.Size(800, 24);
+            this.mnxAcademica.Size = new System.Drawing.Size(1002, 24);
             this.mnxAcademica.TabIndex = 0;
             this.mnxAcademica.Text = "menuStrip1";
             // 
@@ -64,7 +64,7 @@ namespace Academica
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -84,7 +84,7 @@ namespace Academica
             // 
             this.alumnosToolStripMenuItem.Name = "alumnosToolStripMenuItem";
             this.alumnosToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.A)));
-            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.alumnosToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.alumnosToolStripMenuItem.Text = "Alumnos";
             this.alumnosToolStripMenuItem.Click += new System.EventHandler(this.alumnosToolStripMenuItem_Click);
             // 
@@ -92,7 +92,7 @@ namespace Academica
             // 
             this.materiasToolStripMenuItem.Name = "materiasToolStripMenuItem";
             this.materiasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
-            this.materiasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.materiasToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.materiasToolStripMenuItem.Text = "Materias";
             this.materiasToolStripMenuItem.Click += new System.EventHandler(this.materiasToolStripMenuItem_Click);
             // 
@@ -100,19 +100,20 @@ namespace Academica
             // 
             this.docentesToolStripMenuItem.Name = "docentesToolStripMenuItem";
             this.docentesToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.docentesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.docentesToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.docentesToolStripMenuItem.Text = "Docentes";
+            this.docentesToolStripMenuItem.Click += new System.EventHandler(this.docentesToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(177, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(162, 6);
             // 
             // notasToolStripMenuItem
             // 
             this.notasToolStripMenuItem.Name = "notasToolStripMenuItem";
             this.notasToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.notasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.notasToolStripMenuItem.Size = new System.Drawing.Size(165, 22);
             this.notasToolStripMenuItem.Text = "Notas";
             // 
             // principal
@@ -120,13 +121,15 @@ namespace Academica
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Red;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1002, 669);
             this.Controls.Add(this.mnxAcademica);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnxAcademica;
             this.Name = "principal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "APLICACIÓN ACADEMICA";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.principal_Load);
             this.mnxAcademica.ResumeLayout(false);
             this.mnxAcademica.PerformLayout();
             this.ResumeLayout(false);

@@ -32,6 +32,10 @@ namespace academica
             this.lblBuscarMaterias = new System.Windows.Forms.Label();
             this.txtBuscarMaterias = new System.Windows.Forms.TextBox();
             this.grdDatosMaterias = new System.Windows.Forms.DataGridView();
+            this.idMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.uv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbEdicionMaterias = new System.Windows.Forms.GroupBox();
             this.btnEliminarMaterias = new System.Windows.Forms.Button();
             this.btnModificarMaterias = new System.Windows.Forms.Button();
@@ -49,10 +53,6 @@ namespace academica
             this.txtNombreMaterias = new System.Windows.Forms.TextBox();
             this.lblCodigoMaterias = new System.Windows.Forms.Label();
             this.txtCodigoMaterias = new System.Windows.Forms.TextBox();
-            this.idMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.uv = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grdDatosMaterias)).BeginInit();
             this.grbEdicionMaterias.SuspendLayout();
             this.grbNavegacionMaterias.SuspendLayout();
@@ -75,6 +75,7 @@ namespace academica
             this.txtBuscarMaterias.Name = "txtBuscarMaterias";
             this.txtBuscarMaterias.Size = new System.Drawing.Size(347, 20);
             this.txtBuscarMaterias.TabIndex = 16;
+            this.txtBuscarMaterias.TextChanged += new System.EventHandler(this.txtBuscarMaterias_TextChanged);
             // 
             // grdDatosMaterias
             // 
@@ -91,6 +92,35 @@ namespace academica
             this.grdDatosMaterias.ReadOnly = true;
             this.grdDatosMaterias.Size = new System.Drawing.Size(434, 252);
             this.grdDatosMaterias.TabIndex = 14;
+            // 
+            // idMateria
+            // 
+            this.idMateria.DataPropertyName = "idMateria";
+            this.idMateria.HeaderText = "ID";
+            this.idMateria.Name = "idMateria";
+            this.idMateria.ReadOnly = true;
+            this.idMateria.Visible = false;
+            // 
+            // codigo
+            // 
+            this.codigo.DataPropertyName = "codigo";
+            this.codigo.HeaderText = "CODIGO";
+            this.codigo.Name = "codigo";
+            this.codigo.ReadOnly = true;
+            // 
+            // nombre
+            // 
+            this.nombre.DataPropertyName = "nombre";
+            this.nombre.HeaderText = "NOMBRE";
+            this.nombre.Name = "nombre";
+            this.nombre.ReadOnly = true;
+            // 
+            // uv
+            // 
+            this.uv.DataPropertyName = "uv";
+            this.uv.HeaderText = "UV";
+            this.uv.Name = "uv";
+            this.uv.ReadOnly = true;
             // 
             // grbEdicionMaterias
             // 
@@ -271,35 +301,6 @@ namespace academica
             this.txtCodigoMaterias.Name = "txtCodigoMaterias";
             this.txtCodigoMaterias.Size = new System.Drawing.Size(100, 20);
             this.txtCodigoMaterias.TabIndex = 0;
-            // 
-            // idMateria
-            // 
-            this.idMateria.DataPropertyName = "idMateria";
-            this.idMateria.HeaderText = "ID";
-            this.idMateria.Name = "idMateria";
-            this.idMateria.ReadOnly = true;
-            this.idMateria.Visible = false;
-            // 
-            // codigo
-            // 
-            this.codigo.DataPropertyName = "codigo";
-            this.codigo.HeaderText = "CODIGO";
-            this.codigo.Name = "codigo";
-            this.codigo.ReadOnly = true;
-            // 
-            // nombre
-            // 
-            this.nombre.DataPropertyName = "nombre";
-            this.nombre.HeaderText = "NOMBRE";
-            this.nombre.Name = "nombre";
-            this.nombre.ReadOnly = true;
-            // 
-            // uv
-            // 
-            this.uv.DataPropertyName = "uv";
-            this.uv.HeaderText = "UV";
-            this.uv.Name = "uv";
-            this.uv.ReadOnly = true;
             // 
             // materias
             // 
