@@ -1,12 +1,43 @@
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\bin\Debug\db_academica.mdf
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\bin\Debug\db_academica_log.ldf
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\bin\Debug\academica.exe.config
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\bin\Debug\academica.exe
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\bin\Debug\academica.pdb
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.AssemblyReference.cache
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.Form1.resources
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.Properties.Resources.resources
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.GenerateResource.cache
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.CoreCompileInputs.cache
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.exe
+C:\Users\Luis Hernandez\Desktop\PrograI-2024-Semi\academica\academica\obj\Debug\academica.pdb
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\bin\Debug\db_academica.mdf
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\bin\Debug\db_academica_log.ldf
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\bin\Debug\academica.exe.config
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\bin\Debug\academica.exe
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\bin\Debug\academica.pdb
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.AssemblyReference.cache
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.Form1.resources
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.Properties.Resources.resources
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.GenerateResource.cache
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.CoreCompileInputs.cache
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.exe
+C:\Users\Luis Hernandez\Source\Repos\PrograI-2024-Semi\academica\academica\obj\Debug\academica.pdb
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.AssemblyReference.cache
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.Form1.resources
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.Properties.Resources.resources
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.GenerateResource.cache
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.csproj.CoreCompileInputs.cache
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.exe
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-Semi\academica\academica\obj\Debug\academica.pdb
 C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\Academica.csproj.AssemblyReference.cache
 C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\academica.Form1.resources
-C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\Academica.Properties.Resources.resources
+C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\academica.Properties.Resources.resources
 C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\Academica.csproj.GenerateResource.cache
 C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\Academica.csproj.CoreCompileInputs.cache
+C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\academica.exe
+C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\academica.pdb
 C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\db_academica.mdf
 C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\db_academica_log.ldf
-C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\Academica.exe.config
-C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\Academica.exe
-C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\Academica.pdb
-C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\Academica.exe
-C:\Users\kevin\source\repos\PrograI-2024\Academica\obj\Debug\Academica.pdb
+C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\academica.exe.config
+C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\academica.exe
+C:\Users\kevin\source\repos\PrograI-2024\Academica\bin\Debug\academica.pdb
