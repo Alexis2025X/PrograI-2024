@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace academica
 {
     public partial class materias : Form
@@ -146,9 +147,44 @@ namespace academica
             }
         }
 
+        //Filtrar los datos de la tabla materias
+        private void filtrarDatos(String filtro)
+        {
+            DataView dv = miTabla.DefaultView;
+            dv.RowFilter = "codigo like '%" + filtro + "%' OR nombre like '%" + filtro + "%'";
+            // grbDatosMaterias.DataSource = dv;
+            grdDatosMaterias.DataSource = dv;
+        }
+        private void txtBuscarMaterias_KeyUp(object sender, KeyEventArgs e)
+        {
+            filtrarDatos(txtBuscarMaterias.Text);
+            //if (e.KeyValue == 13) {//tecla enter
+            seleccionarMateria();
+            //}
+        }
+        private void seleccionarMateria()
+        {
+            try
+            {
+                posicion = miTabla.Rows.IndexOf(miTabla.Rows.Find(grdDatosMaterias.CurrentRow.Cells["idMateria"].Value.ToString()));
+                mostrarDatosMaterias();
+            }
+            catch (Exception)
+            {
+
+               // MessageBox.Show(posicion, "Error en el registro de materias", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+                
+        }
+        ///
+        private void grdDatosMaterias_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            seleccionarMateria();
+        }
         private void txtBuscarMaterias_TextChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

@@ -41,7 +41,7 @@ namespace academica {
                 lblRegistrosAlumnos.Text = (posicion + 1) + " de " + miTabla.Rows.Count;
             }
         }
-
+        //-----------------------------
         private void btnSiguienteAlumno_Click(object sender, EventArgs e) {
             if (posicion < miTabla.Rows.Count - 1) {
                 posicion++;
@@ -136,10 +136,12 @@ namespace academica {
                 }
             }
         }
+        //----------------------------
         private void filtrarDatos(String filtro) {
             DataView dv = miTabla.DefaultView;
             dv.RowFilter = "codigo like '%"+ filtro +"%' OR nombre like '%" + filtro + "%'";
             grdDatosAlumnos.DataSource = dv;
+
         }
         private void txtBuscarAlumnos_KeyUp(object sender, KeyEventArgs e) {
             filtrarDatos(txtBuscarAlumnos.Text);
@@ -154,8 +156,23 @@ namespace academica {
         private void grdDatosAlumnos_CellClick(object sender, DataGridViewCellEventArgs e) {
             seleccionarAllumno();
         }
-
+        //-----------------------
         private void btnBuscarAlumno_Click(object sender, EventArgs e) {
+
+        }
+
+        private void txtBuscarAlumnos_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void grdDatosAlumnos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void grbDatosAlumno_Enter(object sender, EventArgs e)
+        {
 
         }
     }

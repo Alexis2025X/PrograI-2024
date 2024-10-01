@@ -77,6 +77,7 @@
             this.grbDatosAlumno.TabIndex = 0;
             this.grbDatosAlumno.TabStop = false;
             this.grbDatosAlumno.Text = "Datos Alumnos";
+            this.grbDatosAlumno.Enter += new System.EventHandler(this.grbDatosAlumno_Enter);
             // 
             // lblDuiAlumno
             // 
@@ -293,6 +294,7 @@
             this.grdDatosAlumnos.Size = new System.Drawing.Size(434, 252);
             this.grdDatosAlumnos.TabIndex = 3;
             this.grdDatosAlumnos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDatosAlumnos_CellClick);
+            this.grdDatosAlumnos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDatosAlumnos_CellContentClick);
             // 
             // idAlumno
             // 
@@ -336,6 +338,7 @@
             this.txtBuscarAlumnos.Name = "txtBuscarAlumnos";
             this.txtBuscarAlumnos.Size = new System.Drawing.Size(347, 20);
             this.txtBuscarAlumnos.TabIndex = 10;
+            this.txtBuscarAlumnos.TextChanged += new System.EventHandler(this.txtBuscarAlumnos_TextChanged);
             this.txtBuscarAlumnos.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtBuscarAlumnos_KeyUp);
             // 
             // lblBuscarAlumnos

@@ -31,11 +31,14 @@ namespace academica
         {
             this.lblBuscarDocentes = new System.Windows.Forms.Label();
             this.txtBuscarDocentes = new System.Windows.Forms.TextBox();
-            this.grdDatosMaterias = new System.Windows.Forms.DataGridView();
-            this.idMateria = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.grdDatosDocentes = new System.Windows.Forms.DataGridView();
+            this.idDocente = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.uv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materia1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materia2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nivela_cademico = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.especialidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbEdicionDocentes = new System.Windows.Forms.GroupBox();
             this.btnEliminarDocentes = new System.Windows.Forms.Button();
             this.btnModificarDocentes = new System.Windows.Forms.Button();
@@ -47,13 +50,19 @@ namespace academica
             this.btnAnteriorDocentes = new System.Windows.Forms.Button();
             this.btnPrimeroDocentes = new System.Windows.Forms.Button();
             this.grbDatosDocentes = new System.Windows.Forms.GroupBox();
-            this.lblUvMaterias = new System.Windows.Forms.Label();
-            this.txtUvMaterias = new System.Windows.Forms.TextBox();
+            this.cmbEspecialidadDocente = new System.Windows.Forms.ComboBox();
+            this.lblEspecialidadDocente = new System.Windows.Forms.Label();
+            this.lblNivelAcademico = new System.Windows.Forms.Label();
+            this.txtNivelAcademicoDocentes = new System.Windows.Forms.TextBox();
+            this.lblMateria2 = new System.Windows.Forms.Label();
+            this.txtMateria2Docentes = new System.Windows.Forms.TextBox();
+            this.lblMateria1 = new System.Windows.Forms.Label();
+            this.txtMateria1Docentes = new System.Windows.Forms.TextBox();
             this.lblNombreDocentes = new System.Windows.Forms.Label();
             this.txtNombreDocentes = new System.Windows.Forms.TextBox();
             this.lblCodigoDocentes = new System.Windows.Forms.Label();
             this.txtCodigoDocentes = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.grdDatosMaterias)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.grdDatosDocentes)).BeginInit();
             this.grbEdicionDocentes.SuspendLayout();
             this.grbNavegacionDocentes.SuspendLayout();
             this.grbDatosDocentes.SuspendLayout();
@@ -75,30 +84,36 @@ namespace academica
             this.txtBuscarDocentes.Name = "txtBuscarDocentes";
             this.txtBuscarDocentes.Size = new System.Drawing.Size(347, 20);
             this.txtBuscarDocentes.TabIndex = 22;
+            this.txtBuscarDocentes.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtBuscarDocentes_KeyUp);
             // 
-            // grdDatosMaterias
+            // grdDatosDocentes
             // 
-            this.grdDatosMaterias.AllowUserToAddRows = false;
-            this.grdDatosMaterias.AllowUserToDeleteRows = false;
-            this.grdDatosMaterias.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grdDatosMaterias.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idMateria,
+            this.grdDatosDocentes.AllowUserToAddRows = false;
+            this.grdDatosDocentes.AllowUserToDeleteRows = false;
+            this.grdDatosDocentes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.grdDatosDocentes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.idDocente,
             this.codigo,
             this.nombre,
-            this.uv});
-            this.grdDatosMaterias.Location = new System.Drawing.Point(420, 80);
-            this.grdDatosMaterias.Name = "grdDatosMaterias";
-            this.grdDatosMaterias.ReadOnly = true;
-            this.grdDatosMaterias.Size = new System.Drawing.Size(434, 252);
-            this.grdDatosMaterias.TabIndex = 20;
+            this.materia1,
+            this.materia2,
+            this.nivela_cademico,
+            this.especialidad});
+            this.grdDatosDocentes.Location = new System.Drawing.Point(420, 80);
+            this.grdDatosDocentes.Name = "grdDatosDocentes";
+            this.grdDatosDocentes.ReadOnly = true;
+            this.grdDatosDocentes.Size = new System.Drawing.Size(534, 252);
+            this.grdDatosDocentes.TabIndex = 20;
+            this.grdDatosDocentes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDatosDocentes_CellClick);
+            this.grdDatosDocentes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDatosDocentes_CellClick);
             // 
-            // idMateria
+            // idDocente
             // 
-            this.idMateria.DataPropertyName = "idMateria";
-            this.idMateria.HeaderText = "ID";
-            this.idMateria.Name = "idMateria";
-            this.idMateria.ReadOnly = true;
-            this.idMateria.Visible = false;
+            this.idDocente.DataPropertyName = "idDocente";
+            this.idDocente.HeaderText = "ID";
+            this.idDocente.Name = "idDocente";
+            this.idDocente.ReadOnly = true;
+            this.idDocente.Visible = false;
             // 
             // codigo
             // 
@@ -114,12 +129,33 @@ namespace academica
             this.nombre.Name = "nombre";
             this.nombre.ReadOnly = true;
             // 
-            // uv
+            // materia1
             // 
-            this.uv.DataPropertyName = "uv";
-            this.uv.HeaderText = "UV";
-            this.uv.Name = "uv";
-            this.uv.ReadOnly = true;
+            this.materia1.DataPropertyName = "materia1";
+            this.materia1.HeaderText = "MATERIA1";
+            this.materia1.Name = "materia1";
+            this.materia1.ReadOnly = true;
+            // 
+            // materia2
+            // 
+            this.materia2.DataPropertyName = "materia2";
+            this.materia2.HeaderText = "MATERIA2";
+            this.materia2.Name = "materia2";
+            this.materia2.ReadOnly = true;
+            // 
+            // nivela_cademico
+            // 
+            this.nivela_cademico.DataPropertyName = "nivel_academico";
+            this.nivela_cademico.HeaderText = "NIVEL ACADEMICO";
+            this.nivela_cademico.Name = "nivela_cademico";
+            this.nivela_cademico.ReadOnly = true;
+            // 
+            // especialidad
+            // 
+            this.especialidad.DataPropertyName = "especialidad";
+            this.especialidad.HeaderText = "Especialidad";
+            this.especialidad.Name = "especialidad";
+            this.especialidad.ReadOnly = true;
             // 
             // grbEdicionDocentes
             // 
@@ -142,6 +178,7 @@ namespace academica
             this.btnEliminarDocentes.TabIndex = 6;
             this.btnEliminarDocentes.Text = "Eliminar";
             this.btnEliminarDocentes.UseVisualStyleBackColor = true;
+            this.btnEliminarDocentes.Click += new System.EventHandler(this.btnEliminarDocentes_Click);
             // 
             // btnModificarDocentes
             // 
@@ -152,6 +189,7 @@ namespace academica
             this.btnModificarDocentes.TabIndex = 5;
             this.btnModificarDocentes.Text = "Modificar";
             this.btnModificarDocentes.UseVisualStyleBackColor = true;
+            this.btnModificarDocentes.Click += new System.EventHandler(this.btnModificarDocentes_Click);
             // 
             // btnNuevoDocentes
             // 
@@ -162,6 +200,7 @@ namespace academica
             this.btnNuevoDocentes.TabIndex = 4;
             this.btnNuevoDocentes.Text = "Nuevo";
             this.btnNuevoDocentes.UseVisualStyleBackColor = true;
+            this.btnNuevoDocentes.Click += new System.EventHandler(this.btnNuevoDocentes_Click);
             // 
             // grbNavegacionDocentes
             // 
@@ -196,6 +235,7 @@ namespace academica
             this.btnUltimoDocentes.TabIndex = 3;
             this.btnUltimoDocentes.Text = ">|";
             this.btnUltimoDocentes.UseVisualStyleBackColor = true;
+            this.btnUltimoDocentes.Click += new System.EventHandler(this.btnUltimoDocentes_Click);
             // 
             // btnSiguienteDocentes
             // 
@@ -206,6 +246,7 @@ namespace academica
             this.btnSiguienteDocentes.TabIndex = 2;
             this.btnSiguienteDocentes.Text = ">";
             this.btnSiguienteDocentes.UseVisualStyleBackColor = true;
+            this.btnSiguienteDocentes.Click += new System.EventHandler(this.btnSiguienteDocentes_Click);
             // 
             // btnAnteriorDocentes
             // 
@@ -216,6 +257,7 @@ namespace academica
             this.btnAnteriorDocentes.TabIndex = 1;
             this.btnAnteriorDocentes.Text = "<";
             this.btnAnteriorDocentes.UseVisualStyleBackColor = true;
+            this.btnAnteriorDocentes.Click += new System.EventHandler(this.btnAnteriorDocentes_Click);
             // 
             // btnPrimeroDocentes
             // 
@@ -226,11 +268,18 @@ namespace academica
             this.btnPrimeroDocentes.TabIndex = 0;
             this.btnPrimeroDocentes.Text = "|<";
             this.btnPrimeroDocentes.UseVisualStyleBackColor = true;
+            this.btnPrimeroDocentes.Click += new System.EventHandler(this.btnPrimeroDocentes_Click);
             // 
             // grbDatosDocentes
             // 
-            this.grbDatosDocentes.Controls.Add(this.lblUvMaterias);
-            this.grbDatosDocentes.Controls.Add(this.txtUvMaterias);
+            this.grbDatosDocentes.Controls.Add(this.cmbEspecialidadDocente);
+            this.grbDatosDocentes.Controls.Add(this.lblEspecialidadDocente);
+            this.grbDatosDocentes.Controls.Add(this.lblNivelAcademico);
+            this.grbDatosDocentes.Controls.Add(this.txtNivelAcademicoDocentes);
+            this.grbDatosDocentes.Controls.Add(this.lblMateria2);
+            this.grbDatosDocentes.Controls.Add(this.txtMateria2Docentes);
+            this.grbDatosDocentes.Controls.Add(this.lblMateria1);
+            this.grbDatosDocentes.Controls.Add(this.txtMateria1Docentes);
             this.grbDatosDocentes.Controls.Add(this.lblNombreDocentes);
             this.grbDatosDocentes.Controls.Add(this.txtNombreDocentes);
             this.grbDatosDocentes.Controls.Add(this.lblCodigoDocentes);
@@ -243,22 +292,84 @@ namespace academica
             this.grbDatosDocentes.TabStop = false;
             this.grbDatosDocentes.Text = "Datos Docentes";
             // 
-            // lblUvMaterias
+            // cmbEspecialidadDocente
             // 
-            this.lblUvMaterias.AutoSize = true;
-            this.lblUvMaterias.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUvMaterias.Location = new System.Drawing.Point(31, 116);
-            this.lblUvMaterias.Name = "lblUvMaterias";
-            this.lblUvMaterias.Size = new System.Drawing.Size(41, 24);
-            this.lblUvMaterias.TabIndex = 5;
-            this.lblUvMaterias.Text = "UV:";
+            this.cmbEspecialidadDocente.FormattingEnabled = true;
+            this.cmbEspecialidadDocente.Items.AddRange(new object[] {
+            "Informatico ",
+            "Contador ",
+            "Matematico ",
+            "Fisico",
+            "Filosofo",
+            "Abogado",
+            "Salud",
+            "Bilingüe"});
+            this.cmbEspecialidadDocente.Location = new System.Drawing.Point(173, 243);
+            this.cmbEspecialidadDocente.Name = "cmbEspecialidadDocente";
+            this.cmbEspecialidadDocente.Size = new System.Drawing.Size(136, 21);
+            this.cmbEspecialidadDocente.TabIndex = 11;
+            this.cmbEspecialidadDocente.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
-            // txtUvMaterias
+            // lblEspecialidadDocente
             // 
-            this.txtUvMaterias.Location = new System.Drawing.Point(131, 120);
-            this.txtUvMaterias.Name = "txtUvMaterias";
-            this.txtUvMaterias.Size = new System.Drawing.Size(63, 20);
-            this.txtUvMaterias.TabIndex = 4;
+            this.lblEspecialidadDocente.AutoSize = true;
+            this.lblEspecialidadDocente.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblEspecialidadDocente.Location = new System.Drawing.Point(37, 240);
+            this.lblEspecialidadDocente.Name = "lblEspecialidadDocente";
+            this.lblEspecialidadDocente.Size = new System.Drawing.Size(123, 24);
+            this.lblEspecialidadDocente.TabIndex = 10;
+            this.lblEspecialidadDocente.Text = "Especialidad:";
+            // 
+            // lblNivelAcademico
+            // 
+            this.lblNivelAcademico.AutoSize = true;
+            this.lblNivelAcademico.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNivelAcademico.Location = new System.Drawing.Point(31, 201);
+            this.lblNivelAcademico.Name = "lblNivelAcademico";
+            this.lblNivelAcademico.Size = new System.Drawing.Size(158, 24);
+            this.lblNivelAcademico.TabIndex = 9;
+            this.lblNivelAcademico.Text = "Nivel Academico:";
+            // 
+            // txtNivelAcademicoDocentes
+            // 
+            this.txtNivelAcademicoDocentes.Location = new System.Drawing.Point(206, 205);
+            this.txtNivelAcademicoDocentes.Name = "txtNivelAcademicoDocentes";
+            this.txtNivelAcademicoDocentes.Size = new System.Drawing.Size(176, 20);
+            this.txtNivelAcademicoDocentes.TabIndex = 8;
+            // 
+            // lblMateria2
+            // 
+            this.lblMateria2.AutoSize = true;
+            this.lblMateria2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMateria2.Location = new System.Drawing.Point(31, 156);
+            this.lblMateria2.Name = "lblMateria2";
+            this.lblMateria2.Size = new System.Drawing.Size(86, 24);
+            this.lblMateria2.TabIndex = 7;
+            this.lblMateria2.Text = "Materia2:";
+            // 
+            // txtMateria2Docentes
+            // 
+            this.txtMateria2Docentes.Location = new System.Drawing.Point(131, 160);
+            this.txtMateria2Docentes.Name = "txtMateria2Docentes";
+            this.txtMateria2Docentes.Size = new System.Drawing.Size(178, 20);
+            this.txtMateria2Docentes.TabIndex = 6;
+            // 
+            // lblMateria1
+            // 
+            this.lblMateria1.AutoSize = true;
+            this.lblMateria1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMateria1.Location = new System.Drawing.Point(31, 116);
+            this.lblMateria1.Name = "lblMateria1";
+            this.lblMateria1.Size = new System.Drawing.Size(86, 24);
+            this.lblMateria1.TabIndex = 5;
+            this.lblMateria1.Text = "Materia1:";
+            // 
+            // txtMateria1Docentes
+            // 
+            this.txtMateria1Docentes.Location = new System.Drawing.Point(131, 120);
+            this.txtMateria1Docentes.Name = "txtMateria1Docentes";
+            this.txtMateria1Docentes.Size = new System.Drawing.Size(178, 20);
+            this.txtMateria1Docentes.TabIndex = 4;
             // 
             // lblNombreDocentes
             // 
@@ -298,16 +409,17 @@ namespace academica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(864, 434);
+            this.ClientSize = new System.Drawing.Size(966, 434);
             this.Controls.Add(this.lblBuscarDocentes);
             this.Controls.Add(this.txtBuscarDocentes);
-            this.Controls.Add(this.grdDatosMaterias);
+            this.Controls.Add(this.grdDatosDocentes);
             this.Controls.Add(this.grbEdicionDocentes);
             this.Controls.Add(this.grbNavegacionDocentes);
             this.Controls.Add(this.grbDatosDocentes);
             this.Name = "docentes";
-            this.Text = "docentes";
-            ((System.ComponentModel.ISupportInitialize)(this.grdDatosMaterias)).EndInit();
+            this.Text = "ADMINISTRACIÓN DE DOCENTES";
+            this.Load += new System.EventHandler(this.docentes_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.grdDatosDocentes)).EndInit();
             this.grbEdicionDocentes.ResumeLayout(false);
             this.grbNavegacionDocentes.ResumeLayout(false);
             this.grbNavegacionDocentes.PerformLayout();
@@ -322,11 +434,7 @@ namespace academica
 
         private System.Windows.Forms.Label lblBuscarDocentes;
         private System.Windows.Forms.TextBox txtBuscarDocentes;
-        private System.Windows.Forms.DataGridView grdDatosMaterias;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idMateria;
-        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn uv;
+        private System.Windows.Forms.DataGridView grdDatosDocentes;
         private System.Windows.Forms.GroupBox grbEdicionDocentes;
         private System.Windows.Forms.Button btnEliminarDocentes;
         private System.Windows.Forms.Button btnModificarDocentes;
@@ -338,11 +446,24 @@ namespace academica
         private System.Windows.Forms.Button btnAnteriorDocentes;
         private System.Windows.Forms.Button btnPrimeroDocentes;
         private System.Windows.Forms.GroupBox grbDatosDocentes;
-        private System.Windows.Forms.Label lblUvMaterias;
-        private System.Windows.Forms.TextBox txtUvMaterias;
+        private System.Windows.Forms.Label lblMateria1;
+        private System.Windows.Forms.TextBox txtMateria1Docentes;
         private System.Windows.Forms.Label lblNombreDocentes;
         private System.Windows.Forms.TextBox txtNombreDocentes;
         private System.Windows.Forms.Label lblCodigoDocentes;
         private System.Windows.Forms.TextBox txtCodigoDocentes;
+        private System.Windows.Forms.Label lblNivelAcademico;
+        private System.Windows.Forms.TextBox txtNivelAcademicoDocentes;
+        private System.Windows.Forms.Label lblMateria2;
+        private System.Windows.Forms.TextBox txtMateria2Docentes;
+        private System.Windows.Forms.ComboBox cmbEspecialidadDocente;
+        private System.Windows.Forms.Label lblEspecialidadDocente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn idDocente;
+        private System.Windows.Forms.DataGridViewTextBoxColumn codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
+        private System.Windows.Forms.DataGridViewTextBoxColumn materia1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn materia2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nivela_cademico;
+        private System.Windows.Forms.DataGridViewTextBoxColumn especialidad;
     }
 }
