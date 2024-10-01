@@ -102,7 +102,7 @@ namespace academica
             this.grdDatosDocentes.Location = new System.Drawing.Point(420, 80);
             this.grdDatosDocentes.Name = "grdDatosDocentes";
             this.grdDatosDocentes.ReadOnly = true;
-            this.grdDatosDocentes.Size = new System.Drawing.Size(534, 252);
+            this.grdDatosDocentes.Size = new System.Drawing.Size(628, 252);
             this.grdDatosDocentes.TabIndex = 20;
             this.grdDatosDocentes.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDatosDocentes_CellClick);
             this.grdDatosDocentes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdDatosDocentes_CellClick);
@@ -296,12 +296,12 @@ namespace academica
             // 
             this.cmbEspecialidadDocente.FormattingEnabled = true;
             this.cmbEspecialidadDocente.Items.AddRange(new object[] {
-            "Informatico ",
-            "Contador ",
-            "Matematico ",
-            "Fisico",
-            "Filosofo",
-            "Abogado",
+            "Informatico/a",
+            "Contador/a",
+            "Matematico/a",
+            "Fisico/a",
+            "Filosofo/a",
+            "Abogado/a",
             "Salud",
             "Bilingüe"});
             this.cmbEspecialidadDocente.Location = new System.Drawing.Point(173, 243);
@@ -409,7 +409,7 @@ namespace academica
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(966, 434);
+            this.ClientSize = new System.Drawing.Size(1072, 434);
             this.Controls.Add(this.lblBuscarDocentes);
             this.Controls.Add(this.txtBuscarDocentes);
             this.Controls.Add(this.grdDatosDocentes);
@@ -417,6 +417,7 @@ namespace academica
             this.Controls.Add(this.grbNavegacionDocentes);
             this.Controls.Add(this.grbDatosDocentes);
             this.Name = "docentes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADMINISTRACIÓN DE DOCENTES";
             this.Load += new System.EventHandler(this.docentes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grdDatosDocentes)).EndInit();

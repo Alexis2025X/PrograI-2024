@@ -201,8 +201,39 @@ namespace academica
         }
         private void seleccionarDocentes()
         {
-            posicion = miTabla.Rows.IndexOf(miTabla.Rows.Find(grdDatosDocentes.CurrentRow.Cells["idDocente"].Value.ToString()));
-            mostrarDatosDocentes();
+            try
+            {
+                //La variable currentRow toma la fila o dato que  se esta buscando en el grdDatosAlumnos.CurrentRow
+                var currentRow = grdDatosDocentes.CurrentRow;
+                //El if verifica que si el currentRow encuentra el dato, se ejecutara normal sino se ejecutara el mensaje de error
+                if (currentRow != null)
+                {
+                    posicion = miTabla.Rows.IndexOf(miTabla.Rows.Find(grdDatosDocentes.CurrentRow.Cells["idDocente"].Value.ToString()));
+                    mostrarDatosDocentes();
+                }
+                else
+                {
+                    MessageBox.Show("Error: Registro NO encontrado", "Error en la seleccion de docentes", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // MessageBox.Show("Registro no encontrado");
+                }
+                //si el if falla tendremos al try como otra protección y así el programa no se desborda
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Ocurrió un error");
+
+            }
+            /*
+            try
+            {
+                posicion = miTabla.Rows.IndexOf(miTabla.Rows.Find(grdDatosDocentes.CurrentRow.Cells["idDocente"].Value.ToString()));
+                mostrarDatosDocentes();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Error: Registro NO encontrado", "Error en la seleccion de docentes", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            */
         }
         private void grdDatosDocentes_CellClick(object sender, DataGridViewCellEventArgs e)
         {

@@ -126,9 +126,9 @@ namespace academica
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnxAcademica;
             this.Name = "principal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "APLICACIÓN ACADEMICA";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.principal_Load);
             this.mnxAcademica.ResumeLayout(false);
             this.mnxAcademica.PerformLayout();

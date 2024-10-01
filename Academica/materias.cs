@@ -166,15 +166,39 @@ namespace academica
         {
             try
             {
+                //La variable currentRow toma la fila o dato que  se esta buscando en el grdDatosAlumnos.CurrentRow
+                var currentRow = grdDatosMaterias.CurrentRow;
+                //El if verifica que si el currentRow encuentra el dato, se ejecutara normal sino se ejecutara el mensaje de error
+                if (currentRow != null)
+                {
+                    posicion = miTabla.Rows.IndexOf(miTabla.Rows.Find(grdDatosMaterias.CurrentRow.Cells["idMateria"].Value.ToString()));
+                    mostrarDatosMaterias();
+                }
+                else
+                {
+                    MessageBox.Show("Error: Registro NO encontrado", "Error en la seleccion de materias", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    // MessageBox.Show("Registro no encontrado");
+                }
+                //si el if falla tendremos al try como otra protección y así el programa no se desborda
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Ocurrió un error");
+
+            }
+            /*
+            try
+            {
                 posicion = miTabla.Rows.IndexOf(miTabla.Rows.Find(grdDatosMaterias.CurrentRow.Cells["idMateria"].Value.ToString()));
                 mostrarDatosMaterias();
             }
             catch (Exception)
             {
-
+                MessageBox.Show("Error: Registro NO encontrado", "Error en la seleccion de materias", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
                // MessageBox.Show(posicion, "Error en el registro de materias", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-                
+             */
         }
         ///
         private void grdDatosMaterias_CellClick(object sender, DataGridViewCellEventArgs e)
@@ -186,5 +210,9 @@ namespace academica
 
         }
 
+        private void grdDatosMaterias_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

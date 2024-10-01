@@ -75,7 +75,6 @@ namespace academica
             this.txtBuscarMaterias.Name = "txtBuscarMaterias";
             this.txtBuscarMaterias.Size = new System.Drawing.Size(347, 20);
             this.txtBuscarMaterias.TabIndex = 16;
-            this.txtBuscarMaterias.TextChanged += new System.EventHandler(this.txtBuscarMaterias_TextChanged);
             this.txtBuscarMaterias.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtBuscarMaterias_KeyUp);
             // 
             // grdDatosMaterias
@@ -315,6 +314,7 @@ namespace academica
             this.Controls.Add(this.grbNavegacionMaterias);
             this.Controls.Add(this.grbDatosMaterias);
             this.Name = "materias";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ADMINISTRACIÓN DE MATERIAS";
             this.Load += new System.EventHandler(this.materias_Load);
             ((System.ComponentModel.ISupportInitialize)(this.grdDatosMaterias)).EndInit();
