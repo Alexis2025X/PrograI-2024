@@ -11,7 +11,7 @@
     <div class="container-fluid">
         <!-- Fila -->
         <div class="row">
-            <!-- vista PC/Vista Telefono -->
+            <!-- vista PC/Vista Telefono (12 significa que ocupa todo el ancho) (12 ocupe la mitad del ancho) -->
             <div class="col-12 col-md-6">
                 <div class="card text-bg-dark mb-3">
                     <div class="card-header">Registro de Alumnos</div>
@@ -76,5 +76,33 @@
             </div>
         </div>
     </div>
+    <!--------------------------------->
+    <!--Funcionalidad-->
+    <script>
+        document.addEventListener("DOMContentLoaded", event => {
+            listarAlumnos();
+        });
+
+        //Traeremos los datos y tiene que ser asincro
+        async function listarAlumnos() {
+            const respuesta = await fetch("https://localhost:7041/api/Alumnos", {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            }), alumnos = await respuesta.json();
+            let filas = "";
+            //recorremos las filas
+            alumnos.forEach(alumno => {
+                filas += `<tr>
+                    <td>${alumno.codigo}</td>
+                    <td>${alumno.nombre}</td>
+                    <td>${alumno.direccion}</td>
+                    <td>${alumno.telefono}</td>
+                </tr>`;
+            });
+            document.querySelector("#tblListadoAlumnos > tbody").innerHTML = filas;
+        }
+    </script>
 </body>
 </html>

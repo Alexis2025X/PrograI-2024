@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using sistema_academico.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,7 +20,7 @@ if (app.Environment.IsDevelopment()) {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseStaticFiles();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

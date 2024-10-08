@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -15,6 +16,11 @@ namespace sistema_academico.Models
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Alumno>().HasKey(e => e.idAlumno);
+        }
+
+        internal async Task SaveChangesAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }
