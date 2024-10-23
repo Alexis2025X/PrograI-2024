@@ -9,16 +9,12 @@
 </head>
 <body>
     <div class="container-fluid">
-        <!-- Fila -->
         <div class="row">
-            <!-- vista PC/Vista Telefono (12 significa que ocupa todo el ancho) (12 ocupe la mitad del ancho) -->
             <div class="col-12 col-md-6">
                 <div class="card text-bg-dark mb-3">
                     <div class="card-header">Registro de Alumnos</div>
                     <div class="card-body">
-                        <!-- Formulario Alumno -->
-                        <form id="frmAlumno">
-                            <!-- Padding de un pixel P-1 -->
+                        <form id="frmAlumno" data-idalumno="0" data-accion="nuevo">
                             <div class="row p-1">
                                 <div class="col-3 col-md-2">CODIGO:</div>
                                 <div class="col-9 col-md-4">
@@ -34,7 +30,6 @@
                             <div class="row p-1">
                                 <div class="col-3 col-md-2">DIRECCION:</div>
                                 <div class="col-9 col-md-10">
-                                    <!-- Campos a llenar -->
                                     <input type="text" class="form-control" id="txtDireccionAlumno" name="txtDireccionAlumno" required>
                                 </div>
                             </div>
@@ -46,7 +41,6 @@
                             </div>
                             <div class="row p-1">
                                 <div class="col-12">
-                                    <!-- botones -->
                                     <input type="submit" class="btn btn-primary" value="Guardar">
                                     <input type="reset" class="btn btn-warning" value="Nuevo">
                                 </div>
@@ -55,7 +49,6 @@
                     </div>
                 </div>
             </div>
-            <!-- Nueva carta -->
             <div class="col-12 col-md-6">
                 <div class="card text-bg-dark mb-3">
                     <div class="card-header">Consulta de Alumnos</div>
@@ -67,23 +60,55 @@
                                     <th>NOMBRE</th>
                                     <th>DIRECCION</th>
                                     <th>TELEFONO</th>
+                                    <th></th>
                                 </tr>
                             </thead>
                             <tbody> </tbody>
-                           </table>
+                        </table>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--------------------------------->
-    <!--Funcionalidad-->
+
     <script>
         document.addEventListener("DOMContentLoaded", event => {
             listarAlumnos();
-        });
 
-        //Traeremos los datos y tiene que ser asincro
+            frmAlumno.addEventListener('submit', e => {
+                e.preventDefault();
+                guardarAlumnos();
+            });
+
+        });
+        async function guardarAlumnos() {
+            let datos = {
+                codigo: txtCodigoAlumno.value,
+                nombre: txtNombreAlumno.value,
+                direccion: txtDireccionAlumno.value,
+                telefono: txtTelefonoAlumno.value,
+            },
+                method = "POST",
+                url = "https://localhost:7041/api/Alumnos";
+            if (frmAlumno.dataset.accion == "modificar") {
+                url = `https://localhost:7041/api/Alumnos/${frmAlumno.dataset.idalumno}`;
+                datos.idAlumno = frmAlumno.dataset.idalumno;
+                method = "PUT";
+            }
+            const respuesta = await fetch(url, {
+                method,
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(datos)
+            }), alumno = await respuesta.json();
+            if (alumno && alumno?.idAlumno > 0) {
+                listarAlumnos();
+                limpiarDatosAlumnos();
+            } else {
+                conosle.log(alumno);
+            }
+        }
         async function listarAlumnos() {
             const respuesta = await fetch("https://localhost:7041/api/Alumnos", {
                 method: "GET",
@@ -92,16 +117,49 @@
                 }
             }), alumnos = await respuesta.json();
             let filas = "";
-            //recorremos las filas
             alumnos.forEach(alumno => {
-                filas += `<tr>
-                    <td>${alumno.codigo}</td>
-                    <td>${alumno.nombre}</td>
-                    <td>${alumno.direccion}</td>
-                    <td>${alumno.telefono}</td>
-                </tr>`;
+                filas += `<tr onClick='modificarAlumno(${JSON.stringify(alumno)})'>
+                        <td>${alumno.codigo}</td>
+                        <td>${alumno.nombre}</td>
+                        <td>${alumno.direccion}</td>
+                        <td>${alumno.telefono}</td>
+                        <td><button class="btn btn-danger" onClick='eliminarAlumno(${JSON.stringify(alumno)})'>DEL</button></td>
+                    </tr>`;
             });
             document.querySelector("#tblListadoAlumnos > tbody").innerHTML = filas;
+        }
+        function modificarAlumno(alumno) {
+            frmAlumno.dataset.idalumno = alumno.idAlumno;
+            frmAlumno.dataset.accion = "modificar";
+            txtCodigoAlumno.value = alumno.codigo;
+            txtNombreAlumno.value = alumno.nombre;
+            txtDireccionAlumno.value = alumno.direccion;
+            txtTelefonoAlumno.value = alumno.telefono;
+        }
+        function limpiarDatosAlumnos() {
+            frmAlumno.dataset.idalumno = 0;
+            frmAlumno.dataset.accion = "nuevo";
+            txtCodigoAlumno.value = "";
+            txtNombreAlumno.value = "";
+            txtDireccionAlumno.value = "";
+            txtTelefonoAlumno.value = "";
+        }
+        async function eliminarAlumno(alumno) {
+            if (confirm(`Esta seguro de eliminar a ${alumno.nombre}`)) {
+                let respuesta = await fetch(`https://localhost:7041/api/Alumnos/${alumno.idAlumno}`, {
+                    method: "DELETE",
+                    headers: {
+                        "Content-Type": "application/text"
+                    }
+                }),
+                    datos = await respuesta.text();//""
+                if (datos && datos.length > 0) {
+                    console.log(datos);
+                } else {
+                    limpiarDatosAlumnos();
+                    listarAlumnos();
+                }
+            }
         }
     </script>
 </body>
