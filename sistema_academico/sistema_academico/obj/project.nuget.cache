@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FqtB6wsQ0fU=",
+  "dgSpecHash": "YhyuZpMDRj4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\kevin\\source\\repos\\PrograI-2024\\sistema_academico\\sistema_academico\\sistema_academico.csproj",
+  "projectFilePath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\sistema_academico.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kevin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\kevin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
