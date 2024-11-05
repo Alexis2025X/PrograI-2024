@@ -1,8 +1,20 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
+      "Id": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
       "PackagePath": "staticwebassets\\views\\Alumno.html"
+    },
+    {
+      "Id": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
+      "PackagePath": "staticwebassets\\views\\busqueda_alumno.html"
+    },
+    {
+      "Id": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
+      "PackagePath": "staticwebassets\\views\\index.html"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.sistema_academico.props",

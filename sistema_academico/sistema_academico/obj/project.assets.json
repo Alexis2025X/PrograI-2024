@@ -4584,23 +4584,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevin\\.nuget\\packages\\": {},
+    "C:\\Users\\AMILCAR\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\sistema_academico.csproj",
+      "projectUniqueName": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\sistema_academico.csproj",
       "projectName": "sistema_academico",
-      "projectPath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\sistema_academico.csproj",
-      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\obj\\",
+      "projectPath": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\sistema_academico.csproj",
+      "packagesPath": "C:\\Users\\AMILCAR\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AMILCAR\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
