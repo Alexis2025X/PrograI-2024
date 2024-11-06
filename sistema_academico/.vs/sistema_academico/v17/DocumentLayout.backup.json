@@ -26,15 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -46,8 +42,7 @@
               "RelativeToolTip": "sistema_academico\\sistema_academico.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-05T17:30:44.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T17:30:44.596Z"
             },
             {
               "$type": "Document",
@@ -72,8 +67,7 @@
               "RelativeToolTip": "sistema_academico\\wwwroot\\views\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-29T14:33:13.683Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T14:33:13.683Z"
             },
             {
               "$type": "Document",

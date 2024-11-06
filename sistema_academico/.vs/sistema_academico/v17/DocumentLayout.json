@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\busqueda_alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\amilcar\\desktop\\prograi-2024\\sistema_academico\\sistema_academico\\sistema_academico.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\sistema_academico.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\amilcar\\desktop\\prograi-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\amilcar\\desktop\\prograi-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\amilcar\\desktop\\prograi-2024\\sistema_academico\\sistema_academico\\sistema_academico.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\sistema_academico.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "sistema_academico.http",
               "DocumentMoniker": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\sistema_academico.http",
               "RelativeDocumentMoniker": "sistema_academico\\sistema_academico.http",
@@ -42,7 +42,8 @@
               "RelativeToolTip": "sistema_academico\\sistema_academico.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-05T17:30:44.596Z"
+              "WhenOpened": "2024-11-05T17:30:44.596Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,34 +53,36 @@
               "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
               "ToolTip": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
               "RelativeToolTip": "sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-05T15:04:17.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
               "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\index.html",
               "ToolTip": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
               "RelativeToolTip": "sistema_academico\\wwwroot\\views\\index.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-29T14:33:13.683Z"
+              "WhenOpened": "2024-10-29T14:33:13.683Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Alumno.html",
               "DocumentMoniker": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
               "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\Alumno.html",
               "ToolTip": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
               "RelativeToolTip": "sistema_academico\\wwwroot\\views\\Alumno.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAAGYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-22T15:10:06.922Z"
+              "WhenOpened": "2024-10-22T15:10:06.922Z",
+              "EditorCaption": ""
             }
           ]
         }
