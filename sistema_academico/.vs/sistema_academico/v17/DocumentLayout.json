@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_docente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\busqueda_docente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\models\\docentebusquedaparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\models\\docentebusquedaparametros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\busqueda_alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\docente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\docente.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\alumno.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\sistema_academico.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\sistema_academico.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,13 +46,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DocenteBusquedaParametros.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\Models\\DocenteBusquedaParametros.cs",
+              "RelativeDocumentMoniker": "sistema_academico\\Models\\DocenteBusquedaParametros.cs",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\Models\\DocenteBusquedaParametros.cs",
+              "RelativeToolTip": "sistema_academico\\Models\\DocenteBusquedaParametros.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T13:54:16.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Docente.html",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Docente.html",
+              "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\Docente.html",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Docente.html",
+              "RelativeToolTip": "sistema_academico\\wwwroot\\views\\Docente.html",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAuwIIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-13T13:45:19.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "busqueda_docente.html",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_docente.html",
+              "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\busqueda_docente.html",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_docente.html",
+              "RelativeToolTip": "sistema_academico\\wwwroot\\views\\busqueda_docente.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-13T13:44:07.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "DocentesController.cs",
               "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\Controllers\\DocentesController.cs",
               "RelativeDocumentMoniker": "sistema_academico\\Controllers\\DocentesController.cs",
               "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\Controllers\\DocentesController.cs",
               "RelativeToolTip": "sistema_academico\\Controllers\\DocentesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAcwHsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T13:39:46.812Z",
               "EditorCaption": ""
@@ -56,31 +99,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "sistema_academico.http",
-              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\sistema_academico.http",
-              "RelativeDocumentMoniker": "sistema_academico\\sistema_academico.http",
-              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\sistema_academico.http",
-              "RelativeToolTip": "sistema_academico\\sistema_academico.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-11-05T17:30:44.596Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "busqueda_alumno.html",
-              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
-              "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
-              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
-              "RelativeToolTip": "sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-05T15:04:17.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
               "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\index.html",
@@ -92,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Alumno.html",
               "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
               "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\Alumno.html",

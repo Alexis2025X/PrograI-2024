@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\views\\busqueda_alumno.html"
     },
     {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_docente.html",
+      "PackagePath": "staticwebassets\\views\\busqueda_docente.html"
+    },
+    {
       "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
       "PackagePath": "staticwebassets\\views\\index.html"
     },

@@ -28,20 +28,34 @@ namespace sistema_academico.Controllers
         }
 
         // GET: api/Docentes/buscar
-        [HttpGet("buscar")]
-        public async Task<ActionResult<IEnumerable<Docente>>> BuscarDocentes([FromQuery] DocenteBusquedaParametros parametros)
+        [HttpGet("{buscar}")]
+        public async Task<ActionResult<IEnumerable<Docente>>> BuscarDocentes(String buscar)
         {
             var consulta = _context.Docentes.AsQueryable();
-            if (!string.IsNullOrEmpty(parametros.nombre))
+            if (!string.IsNullOrEmpty(buscar))
             {
-                consulta = consulta.Where(d => d.nombre.Contains(parametros.nombre));
+                consulta = consulta.Where(d => d.nombre.Contains(buscar));
             }
-            if (!string.IsNullOrEmpty(parametros.codigo) && consulta.Count() <= 0)
+            if (!string.IsNullOrEmpty(buscar) && consulta.Count() <= 0)
             {
                 consulta = _context.Docentes.AsQueryable();
-                consulta = consulta.Where(d => d.codigo.Contains(parametros.codigo));
+                consulta = consulta.Where(d => d.codigo.Contains(buscar));
             }
             return await consulta.ToListAsync();
+        }
+
+        // GET: api/Docentes/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Docente>> GetDocente(int id)
+        {
+            var docente = await _context.Docentes.FindAsync(id);
+
+            if (docente == null)
+            {
+                return NotFound();
+            }
+
+            return docente;
         }
 
         // PUT: api/Docentes/5

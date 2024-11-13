@@ -37,7 +37,7 @@
     });
 
     async function listarDocentes(buscar = '') {
-        let url = `/api/Docentes/buscar?nombre=${buscar}&codigo=${buscar}`;
+        let url = `/api/Docentes/${buscar}`;
         const respuesta = await fetch(url, {
             method: "GET",
             headers: {
