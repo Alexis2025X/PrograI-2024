@@ -1,5 +1,5 @@
 ﻿<form id="frmDocente" data-iddocente="0" data-accion="nuevo">
-    <div class="card text-bg-dark mb-3" style="min-width:700px;">
+    <div class="card text-bg-dark mb-3" style="width:700px;">
         <div class="card-header">
             <div class="d-flex">
                 Registro de Docentes
@@ -33,19 +33,18 @@
                     <input type="text" class="form-control" id="txtTelefonoDocente" name="txtTelefonoDocente" required>
                 </div>
             </div>
-        </div>
-        <div class="row p-1">
-            <div class="col-3 col-md-2">FOTO:</div>
-            <div class="col-9 col-md-4">
-                <div class="input-group mb-3">
-                    <label class="input-group-text" for="imgFotodocente">Upload</label>
-                    <!--Para aceptar cualquier imagen-->
-                    <input type="file" class="form-control" id="imgFotodocente" accept="image/*" onchange="seleccionarImg(this)">
+            <div class="row p-1">
+                <div class="col-3 col-md-2">FOTO:</div>
+                <div class="col-9 col-md-4">
+                    <div class="input-group mb-3">
+                        <label class="input-group-text" for="imgFotodocente">Upload</label>
+                        <input type="file" class="form-control" id="imgFotodocente"
+                               accept="image/*" onchange="selecionarImg(this)">
+                    </div>
                 </div>
-            </div>
-            <div class="col-9 col-md-4">
-                <img class ="img-thumbnail rounded" id="imgPreVisualizacionFotoDocente"/>
-            </div>
+                <div class="col-3 col-md-4">
+                    <img class="img-thumbnail rounded" id="imgPreVisualizacionFotoDocente" />
+                </div>
             </div>
             <div class="row p-1">
                 <div class="col-12">
@@ -60,14 +59,14 @@
 
 <script>
     var miArchivo;
-    function seleccionarImg(file) {
+    function selecionarImg(file) {
         let archivo = file.files[0];
         const reader = new FileReader();
         reader.onload = event => {
             miArchivo = event.target.result;
             $("#imgPreVisualizacionFotoDocente").attr("src", miArchivo);
         };
-        reader.readAsDataURL("Archivo");
+        reader.readAsDataURL(archivo);
     }
     frmDocente.addEventListener('submit', e => {
         e.preventDefault();
@@ -83,6 +82,7 @@
             nombre: txtNombreDocente.value,
             direccion: txtDireccionDocente.value,
             telefono: txtTelefonoDocente.value,
+            foto: miArchivo.split(",")[1]
         },
             method = "POST",
             url = "https://localhost:7041/api/Docentes";
@@ -115,6 +115,8 @@
         txtNombreDocente.value = docente.nombre;
         txtDireccionDocente.value = docente.direccion;
         txtTelefonoDocente.value = docente.telefono;
+        miArchivo = `data:image/png;base64,${docente.foto}`
+        $("#imgPreVisualizacionFotoDocente").attr("src", miArchivo);
     }
     function limpiarDatosDocentes() {
         frmDocente.dataset.iddocente = 0;
@@ -123,5 +125,7 @@
         txtNombreDocente.value = "";
         txtDireccionDocente.value = "";
         txtTelefonoDocente.value = "";
+        $("#imgPreVisualizacionFotoDocente").attr("src", "");
+        miArchivo = null;
     }
 </script>

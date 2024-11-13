@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3/3DSTTCWf+LqbbLT21MdW6VyqocZ+UmHZ9vN/b6vGI=",
+  "Hash": "l558rg2h7Ygj5cYHB5fjZLMkIcZkUQJAWyoX7Nl29Fg=",
   "Source": "sistema_academico",
   "BasePath": "_content/sistema_academico",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "sistema_academico\\wwwroot",
       "Source": "sistema_academico",
-      "ContentRoot": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\",
       "BasePath": "_content/sistema_academico",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\img\\logo.png",
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\img\\logo.png",
       "SourceId": "sistema_academico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\",
       "BasePath": "_content/sistema_academico",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
       "SourceId": "sistema_academico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\",
       "BasePath": "_content/sistema_academico",
       "RelativePath": "views/Alumno.html",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\views\\Alumno.html"
     },
     {
-      "Identity": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
       "SourceId": "sistema_academico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\",
       "BasePath": "_content/sistema_academico",
       "RelativePath": "views/busqueda_alumno.html",
       "AssetKind": "All",
@@ -74,10 +74,29 @@
       "OriginalItemSpec": "wwwroot\\views\\busqueda_alumno.html"
     },
     {
-      "Identity": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Docente.html",
       "SourceId": "sistema_academico",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\AMILCAR\\Desktop\\PrograI-2024\\sistema_academico\\sistema_academico\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\",
+      "BasePath": "_content/sistema_academico",
+      "RelativePath": "views/Docente.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\Docente.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
+      "SourceId": "sistema_academico",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\",
       "BasePath": "_content/sistema_academico",
       "RelativePath": "views/index.html",
       "AssetKind": "All",
