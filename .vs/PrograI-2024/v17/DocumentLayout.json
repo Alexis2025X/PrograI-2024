@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\",
+  "WorkspaceRootPath": "C:\\Users\\kevin\\source\\repos\\PrograI-2024\\",
   "Documents": [],
   "DocumentGroupContainers": [
     {
@@ -13,11 +13,7 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
