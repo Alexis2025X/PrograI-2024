@@ -540,3 +540,7 @@ C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-
 C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\bin\Debug\net8.0\sistema_academico.staticwebassets.endpoints.json
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\obj\Debug\net8.0\staticwebassets\msbuild.sistema_academico.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\kevin\OneDrive - Universidad Gerardo Barrios\1-Programación I\PrograI-2024-ALEXIS\sistema_academico\sistema_academico\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

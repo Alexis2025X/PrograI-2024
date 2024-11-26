@@ -28,18 +28,18 @@ namespace sistema_academico.Controllers
         }
 
         // GET: api/Docentes/buscar
-        [HttpGet("{buscar}")]
-        public async Task<ActionResult<IEnumerable<Docente>>> BuscarDocentes(String buscar)
+        [HttpGet("buscar")]
+        public async Task<ActionResult<IEnumerable<Docente>>> BuscarDocentes([FromQuery] DocenteBusquedaParametros parametros)
         {
             var consulta = _context.Docentes.AsQueryable();
-            if (!string.IsNullOrEmpty(buscar))
+            if (!string.IsNullOrEmpty(parametros.buscar))
             {
-                consulta = consulta.Where(d => d.nombre.Contains(buscar));
+                consulta = consulta.Where(d => d.nombre.Contains(parametros.buscar));
             }
-            if (!string.IsNullOrEmpty(buscar) && consulta.Count() <= 0)
+            if (!string.IsNullOrEmpty(parametros.buscar) && consulta.Count() <= 0)
             {
                 consulta = _context.Docentes.AsQueryable();
-                consulta = consulta.Where(d => d.codigo.Contains(buscar));
+                consulta = consulta.Where(d => d.codigo.Contains(parametros.buscar));
             }
             return await consulta.ToListAsync();
         }

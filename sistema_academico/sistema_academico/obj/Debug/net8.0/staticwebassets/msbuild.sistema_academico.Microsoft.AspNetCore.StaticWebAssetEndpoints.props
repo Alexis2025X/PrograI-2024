@@ -1,0 +1,100 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/img/logo.p9l97sqqfu.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"p9l97sqqfu"},{"Name":"integrity","Value":"sha256-E7VKK3akNJzJCHBGGu9V4BIEbfDBiyVeznibFyLL6Q0="},{"Name":"label","Value":"_content/sistema_academico/img/logo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"212771"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022E7VKK3akNJzJCHBGGu9V4BIEbfDBiyVeznibFyLL6Q0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Nov 2024 13:34:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/img/logo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\logo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E7VKK3akNJzJCHBGGu9V4BIEbfDBiyVeznibFyLL6Q0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"212771"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022E7VKK3akNJzJCHBGGu9V4BIEbfDBiyVeznibFyLL6Q0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 13 Nov 2024 13:34:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/Alumno.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\Alumno.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b5jIFe92omLEA9jKNzTkTytlXi9N\u002BXGJ9OOcx3jzg8M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4178"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022b5jIFe92omLEA9jKNzTkTytlXi9N\u002BXGJ9OOcx3jzg8M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:20:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/Alumno.ln4gw79znf.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\Alumno.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ln4gw79znf"},{"Name":"integrity","Value":"sha256-b5jIFe92omLEA9jKNzTkTytlXi9N\u002BXGJ9OOcx3jzg8M="},{"Name":"label","Value":"_content/sistema_academico/views/Alumno.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4178"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022b5jIFe92omLEA9jKNzTkTytlXi9N\u002BXGJ9OOcx3jzg8M=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:20:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/busqueda_alumno.g2vq1m3o97.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\busqueda_alumno.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g2vq1m3o97"},{"Name":"integrity","Value":"sha256-OPfQ9i3TBjyjCEMePYBKv85aPsPn6VPkzC/k4uQ1pgs="},{"Name":"label","Value":"_content/sistema_academico/views/busqueda_alumno.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3000"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022OPfQ9i3TBjyjCEMePYBKv85aPsPn6VPkzC/k4uQ1pgs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:26:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/busqueda_alumno.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\busqueda_alumno.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OPfQ9i3TBjyjCEMePYBKv85aPsPn6VPkzC/k4uQ1pgs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3000"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022OPfQ9i3TBjyjCEMePYBKv85aPsPn6VPkzC/k4uQ1pgs=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:26:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/busqueda_docente.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\busqueda_docente.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-b8jsYmPV1c1R6VbR9U47jCRGlIPLPuwjAPpy6HbbKYU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3219"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022b8jsYmPV1c1R6VbR9U47jCRGlIPLPuwjAPpy6HbbKYU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:27:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/busqueda_docente.jvkfpeg03a.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\busqueda_docente.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jvkfpeg03a"},{"Name":"integrity","Value":"sha256-b8jsYmPV1c1R6VbR9U47jCRGlIPLPuwjAPpy6HbbKYU="},{"Name":"label","Value":"_content/sistema_academico/views/busqueda_docente.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3219"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022b8jsYmPV1c1R6VbR9U47jCRGlIPLPuwjAPpy6HbbKYU=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:27:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/busqueda_matricula.b7ktasn1w2.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\busqueda_matricula.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b7ktasn1w2"},{"Name":"integrity","Value":"sha256-h/XPDNxMpeNWx3p15Q6Xsrt6yMt42k243sXFcOX0k9s="},{"Name":"label","Value":"_content/sistema_academico/views/busqueda_matricula.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2682"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022h/XPDNxMpeNWx3p15Q6Xsrt6yMt42k243sXFcOX0k9s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:27:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/busqueda_matricula.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\busqueda_matricula.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h/XPDNxMpeNWx3p15Q6Xsrt6yMt42k243sXFcOX0k9s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2682"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022h/XPDNxMpeNWx3p15Q6Xsrt6yMt42k243sXFcOX0k9s=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:27:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/Docente.5ydiou1fcs.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\Docente.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5ydiou1fcs"},{"Name":"integrity","Value":"sha256-HTdEjUjOYkpmWkpWQ6PcBnpIJbo7sNY9dU6ig1vBkxc="},{"Name":"label","Value":"_content/sistema_academico/views/Docente.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5538"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022HTdEjUjOYkpmWkpWQ6PcBnpIJbo7sNY9dU6ig1vBkxc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:21:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/Docente.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\Docente.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-HTdEjUjOYkpmWkpWQ6PcBnpIJbo7sNY9dU6ig1vBkxc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5538"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022HTdEjUjOYkpmWkpWQ6PcBnpIJbo7sNY9dU6ig1vBkxc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:21:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/index.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fuF6XnQSqCxLOD9C78IodmLh5xWO7sELaVuTHLzeLdw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4031"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022fuF6XnQSqCxLOD9C78IodmLh5xWO7sELaVuTHLzeLdw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:28:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/index.mimat9t2bc.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\index.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mimat9t2bc"},{"Name":"integrity","Value":"sha256-fuF6XnQSqCxLOD9C78IodmLh5xWO7sELaVuTHLzeLdw="},{"Name":"label","Value":"_content/sistema_academico/views/index.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4031"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022fuF6XnQSqCxLOD9C78IodmLh5xWO7sELaVuTHLzeLdw=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:28:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/Matricula.g9x0b53iss.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\Matricula.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g9x0b53iss"},{"Name":"integrity","Value":"sha256-ZHe5zXfKLhxlyiDJGB7BbIS1ZlciZB\u002BjQIP6NQgnT70="},{"Name":"label","Value":"_content/sistema_academico/views/Matricula.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4940"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZHe5zXfKLhxlyiDJGB7BbIS1ZlciZB\u002BjQIP6NQgnT70=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:26:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/sistema_academico/views/Matricula.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\Matricula.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ZHe5zXfKLhxlyiDJGB7BbIS1ZlciZB\u002BjQIP6NQgnT70="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"4940"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022ZHe5zXfKLhxlyiDJGB7BbIS1ZlciZB\u002BjQIP6NQgnT70=\u0022"},{"Name":"Last-Modified","Value":"Tue, 26 Nov 2024 18:26:14 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>
