@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Alumno.html",
+      "PackagePath": "staticwebassets\\views\\Alumno.html"
+    },
+    {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Docente.html",
+      "PackagePath": "staticwebassets\\views\\Docente.html"
+    },
+    {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_alumno.html",
+      "PackagePath": "staticwebassets\\views\\busqueda_alumno.html"
+    },
+    {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_docente.html",
+      "PackagePath": "staticwebassets\\views\\busqueda_docente.html"
+    },
+    {
+      "Id": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\index.html",
+      "PackagePath": "staticwebassets\\views\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.sistema_academico.props",
+      "PackagePath": "build\\sistema_academico.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.sistema_academico.props",
+      "PackagePath": "buildMultiTargeting\\sistema_academico.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.sistema_academico.props",
+      "PackagePath": "buildTransitive\\sistema_academico.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.sistema_academico.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

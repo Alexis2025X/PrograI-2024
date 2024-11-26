@@ -1,0 +1,66 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_matricula.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\busqueda_matricula.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\prograi-2024-alexis\\sistema_academico\\sistema_academico\\wwwroot\\views\\matricula.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7B4FE16F-4D58-4CFC-8474-17424349A910}|sistema_academico\\sistema_academico.csproj|solutionrelative:sistema_academico\\wwwroot\\views\\matricula.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "busqueda_matricula.html",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_matricula.html",
+              "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\busqueda_matricula.html",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\busqueda_matricula.html",
+              "RelativeToolTip": "sistema_academico\\wwwroot\\views\\busqueda_matricula.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwv0UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-23T13:37:50.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Matricula.html",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Matricula.html",
+              "RelativeDocumentMoniker": "sistema_academico\\wwwroot\\views\\Matricula.html",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\PrograI-2024-ALEXIS\\sistema_academico\\sistema_academico\\wwwroot\\views\\Matricula.html",
+              "RelativeToolTip": "sistema_academico\\wwwroot\\views\\Matricula.html",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAAAHYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-23T13:36:16.775Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
