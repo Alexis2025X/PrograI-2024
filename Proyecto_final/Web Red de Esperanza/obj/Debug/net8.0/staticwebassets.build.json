@@ -1,0 +1,1052 @@
+{
+  "Version": 1,
+  "Hash": "3ak396RO8p5BVFuuTPEGhtLGYYjjjs782VWWkiEbFtg=",
+  "Source": "Web Red de Esperanza",
+  "BasePath": "_content/Web Red de Esperanza",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Web Red de Esperanza\\wwwroot",
+      "Source": "Web Red de Esperanza",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\crear_cuenta.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/cuenta/crear_cuenta#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w3hlakfgwr",
+      "Integrity": "3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\cuenta\\crear_cuenta.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\desaparecidos.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/cuenta/desaparecidos#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1yq3ycvjc7",
+      "Integrity": "15Lsd+b3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc+wUg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\cuenta\\desaparecidos.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mi_cuenta.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/cuenta/mi_cuenta#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zfett8q0uh",
+      "Integrity": "oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\cuenta\\mi_cuenta.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mis_anuncios.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/cuenta/mis_anuncios#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6wati7c5bv",
+      "Integrity": "Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\cuenta\\mis_anuncios.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\necesitados.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/cuenta/necesitados#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iiiidmegwr",
+      "Integrity": "xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\cuenta\\necesitados.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\Style.css",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/cuenta/Style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dyjx89twm7",
+      "Integrity": "u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\cuenta\\Style.css"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\crear_cuenta.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/sin-cuenta/crear_cuenta#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yh4w42lz6c",
+      "Integrity": "xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\sin-cuenta\\crear_cuenta.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/sin-cuenta/desaparecidos#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vhdcdp0hap",
+      "Integrity": "rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\sin-cuenta\\desaparecidos.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\iniciosesion.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/sin-cuenta/iniciosesion#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "85ood3uzmt",
+      "Integrity": "xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\sin-cuenta\\iniciosesion.html"
+    },
+    {
+      "Identity": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\necesitados.html",
+      "SourceId": "Web Red de Esperanza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\",
+      "BasePath": "_content/Web Red de Esperanza",
+      "RelativePath": "views/sin-cuenta/necesitados#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jjiwqv6zgd",
+      "Integrity": "IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\views\\sin-cuenta\\necesitados.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "views/cuenta/crear_cuenta.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\crear_cuenta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/crear_cuenta.w3hlakfgwr.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\crear_cuenta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10345"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w3hlakfgwr"
+        },
+        {
+          "Name": "label",
+          "Value": "views/cuenta/crear_cuenta.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/desaparecidos.1yq3ycvjc7.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\desaparecidos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15Lsd+b3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc+wUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1yq3ycvjc7"
+        },
+        {
+          "Name": "label",
+          "Value": "views/cuenta/desaparecidos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-15Lsd+b3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc+wUg="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/desaparecidos.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\desaparecidos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15Lsd+b3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc+wUg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-15Lsd+b3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc+wUg="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/mi_cuenta.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mi_cuenta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/mi_cuenta.zfett8q0uh.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mi_cuenta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18242"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zfett8q0uh"
+        },
+        {
+          "Name": "label",
+          "Value": "views/cuenta/mi_cuenta.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/mis_anuncios.6wati7c5bv.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mis_anuncios.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6wati7c5bv"
+        },
+        {
+          "Name": "label",
+          "Value": "views/cuenta/mis_anuncios.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/mis_anuncios.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mis_anuncios.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/necesitados.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\necesitados.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/necesitados.iiiidmegwr.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\necesitados.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7610"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iiiidmegwr"
+        },
+        {
+          "Name": "label",
+          "Value": "views/cuenta/necesitados.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/Style.css",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:17:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "views/cuenta/Style.dyjx89twm7.css",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\Style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:17:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dyjx89twm7"
+        },
+        {
+          "Name": "label",
+          "Value": "views/cuenta/Style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/crear_cuenta.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\crear_cuenta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/crear_cuenta.yh4w42lz6c.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\crear_cuenta.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yh4w42lz6c"
+        },
+        {
+          "Name": "label",
+          "Value": "views/sin-cuenta/crear_cuenta.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/desaparecidos.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/desaparecidos.vhdcdp0hap.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7947"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vhdcdp0hap"
+        },
+        {
+          "Name": "label",
+          "Value": "views/sin-cuenta/desaparecidos.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/iniciosesion.85ood3uzmt.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\iniciosesion.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "85ood3uzmt"
+        },
+        {
+          "Name": "label",
+          "Value": "views/sin-cuenta/iniciosesion.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/iniciosesion.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\iniciosesion.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8962"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/necesitados.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\necesitados.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ="
+        }
+      ]
+    },
+    {
+      "Route": "views/sin-cuenta/necesitados.jjiwqv6zgd.html",
+      "AssetFile": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programación I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\necesitados.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7582"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 29 Nov 2024 17:20:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jjiwqv6zgd"
+        },
+        {
+          "Name": "label",
+          "Value": "views/sin-cuenta/necesitados.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ="
+        }
+      ]
+    }
+  ]
+}

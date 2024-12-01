@@ -1,0 +1,124 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/crear_cuenta.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\crear_cuenta.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10345"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/crear_cuenta.w3hlakfgwr.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\crear_cuenta.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w3hlakfgwr"},{"Name":"integrity","Value":"sha256-3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/cuenta/crear_cuenta.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10345"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u00223FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/desaparecidos.1yq3ycvjc7.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\desaparecidos.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1yq3ycvjc7"},{"Name":"integrity","Value":"sha256-15Lsd\u002Bb3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc\u002BwUg="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/cuenta/desaparecidos.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7423"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002215Lsd\u002Bb3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc\u002BwUg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/desaparecidos.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\desaparecidos.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-15Lsd\u002Bb3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc\u002BwUg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7423"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u002215Lsd\u002Bb3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc\u002BwUg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/mis_anuncios.6wati7c5bv.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mis_anuncios.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6wati7c5bv"},{"Name":"integrity","Value":"sha256-Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/cuenta/mis_anuncios.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"57134"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/mis_anuncios.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mis_anuncios.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"57134"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/mi_cuenta.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mi_cuenta.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"18242"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/mi_cuenta.zfett8q0uh.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mi_cuenta.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zfett8q0uh"},{"Name":"integrity","Value":"sha256-oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/cuenta/mi_cuenta.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18242"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/necesitados.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\necesitados.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7610"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/necesitados.iiiidmegwr.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\necesitados.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iiiidmegwr"},{"Name":"integrity","Value":"sha256-xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/cuenta/necesitados.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7610"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/Style.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\Style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"14"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:17:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/cuenta/Style.dyjx89twm7.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\Style.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dyjx89twm7"},{"Name":"integrity","Value":"sha256-u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/cuenta/Style.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022u4DszuiY1WLPnENub5\u002BKbAlwyJCcCHdKlyaXaKLaRqk=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:17:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/crear_cuenta.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\crear_cuenta.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"10268"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/crear_cuenta.yh4w42lz6c.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\crear_cuenta.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yh4w42lz6c"},{"Name":"integrity","Value":"sha256-xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/sin-cuenta/crear_cuenta.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10268"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/desaparecidos.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\desaparecidos.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7947"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/desaparecidos.vhdcdp0hap.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\desaparecidos.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vhdcdp0hap"},{"Name":"integrity","Value":"sha256-rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/sin-cuenta/desaparecidos.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7947"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/iniciosesion.85ood3uzmt.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\iniciosesion.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"85ood3uzmt"},{"Name":"integrity","Value":"sha256-xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/sin-cuenta/iniciosesion.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8962"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/iniciosesion.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\iniciosesion.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8962"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/necesitados.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\necesitados.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7582"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Web Red de Esperanza/views/sin-cuenta/necesitados.jjiwqv6zgd.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\necesitados.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jjiwqv6zgd"},{"Name":"integrity","Value":"sha256-IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ="},{"Name":"label","Value":"_content/Web Red de Esperanza/views/sin-cuenta/necesitados.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7582"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 29 Nov 2024 17:20:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

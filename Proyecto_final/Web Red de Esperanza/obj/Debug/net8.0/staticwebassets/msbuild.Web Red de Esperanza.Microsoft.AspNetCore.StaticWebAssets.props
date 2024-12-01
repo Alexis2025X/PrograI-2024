@@ -1,0 +1,184 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\crear_cuenta.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/cuenta/crear_cuenta.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>w3hlakfgwr</Fingerprint>
+      <Integrity>3FP2Rr3AKnMA92jhccuDuOBsTKeX1Ewg2kGUdwpDzSM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\crear_cuenta.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\desaparecidos.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/cuenta/desaparecidos.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>1yq3ycvjc7</Fingerprint>
+      <Integrity>15Lsd+b3nCvVK8/yp9DJ6wj9OH3AuAD7gNJoiBc+wUg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\desaparecidos.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mis_anuncios.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/cuenta/mis_anuncios.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6wati7c5bv</Fingerprint>
+      <Integrity>Zqp/MefFoicwmMrDCqaktTvEF/ckJgG6XVOKaAxHJKs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mis_anuncios.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mi_cuenta.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/cuenta/mi_cuenta.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zfett8q0uh</Fingerprint>
+      <Integrity>oRTFHKPZG7KIUxPaUft3gsND53YYfHj/G8mmgIVJqFI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\mi_cuenta.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\necesitados.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/cuenta/necesitados.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iiiidmegwr</Fingerprint>
+      <Integrity>xqx46JLJz9HftChhlw1Zu3xCdsVQWp7tbKdplzyb800=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\necesitados.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\Style.css'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/cuenta/Style.css</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>dyjx89twm7</Fingerprint>
+      <Integrity>u4DszuiY1WLPnENub5+KbAlwyJCcCHdKlyaXaKLaRqk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\cuenta\Style.css'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\crear_cuenta.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/sin-cuenta/crear_cuenta.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yh4w42lz6c</Fingerprint>
+      <Integrity>xrqXtybbT5IZXiCvs2ppsMzQe6gB99DkI5wcP/i5Dwc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\crear_cuenta.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\desaparecidos.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/sin-cuenta/desaparecidos.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vhdcdp0hap</Fingerprint>
+      <Integrity>rb/frE1b0QamF6DX/CP/A0jWoBPidqaeTjHRXHLkTSA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\desaparecidos.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\iniciosesion.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/sin-cuenta/iniciosesion.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>85ood3uzmt</Fingerprint>
+      <Integrity>xLawWMFmjQzHWc4tKICwSk5jK4ot3/gBylFudgMwMSQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\iniciosesion.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\necesitados.html'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Web Red de Esperanza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Web Red de Esperanza</BasePath>
+      <RelativePath>views/sin-cuenta/necesitados.html</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jjiwqv6zgd</Fingerprint>
+      <Integrity>IYSj076XODvTiBiX/Zsu8s06xMUxoDFvrmgOQYZ5MlQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\views\sin-cuenta\necesitados.html'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

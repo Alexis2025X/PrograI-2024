@@ -1,0 +1,10 @@
+wwwroot\views\cuenta\crear_cuenta.html
+wwwroot\views\cuenta\desaparecidos.html
+wwwroot\views\cuenta\mi_cuenta.html
+wwwroot\views\cuenta\mis_anuncios.html
+wwwroot\views\cuenta\necesitados.html
+wwwroot\views\cuenta\Style.css
+wwwroot\views\sin-cuenta\crear_cuenta.html
+wwwroot\views\sin-cuenta\desaparecidos.html
+wwwroot\views\sin-cuenta\iniciosesion.html
+wwwroot\views\sin-cuenta\necesitados.html

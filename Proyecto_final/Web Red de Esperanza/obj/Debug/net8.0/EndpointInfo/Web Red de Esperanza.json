@@ -1,0 +1,823 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Web Red de Esperanza",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/cuentas": {
+      "get": {
+        "tags": [
+          "cuentas"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/cuentas"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/cuentas"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/cuentas"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "cuentas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/cuentas"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/cuentas"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/cuentas"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/cuentas"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/cuentas"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/cuentas"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/cuentas/{id}": {
+      "get": {
+        "tags": [
+          "cuentas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/cuentas"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/cuentas"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/cuentas"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "cuentas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/cuentas"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/cuentas"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/cuentas"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "cuentas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/desaparecidos": {
+      "get": {
+        "tags": [
+          "desaparecidos"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Desaparecidos"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Desaparecidos"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Desaparecidos"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "desaparecidos"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Desaparecidos"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Desaparecidos"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Desaparecidos"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Desaparecidos"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Desaparecidos"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Desaparecidos"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/desaparecidos/{buscar}": {
+      "get": {
+        "tags": [
+          "desaparecidos"
+        ],
+        "parameters": [
+          {
+            "name": "buscar",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Desaparecidos"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Desaparecidos"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Desaparecidos"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/desaparecidos/{id}": {
+      "put": {
+        "tags": [
+          "desaparecidos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Desaparecidos"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Desaparecidos"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Desaparecidos"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "desaparecidos"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/necesitados": {
+      "get": {
+        "tags": [
+          "necesitados"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Necesitado"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Necesitado"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Necesitado"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "necesitados"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Necesitado"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Necesitado"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Necesitado"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Necesitado"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Necesitado"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Necesitado"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/necesitados/{buscar}": {
+      "get": {
+        "tags": [
+          "necesitados"
+        ],
+        "parameters": [
+          {
+            "name": "buscar",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Necesitado"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Necesitado"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Necesitado"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/necesitados/{id}": {
+      "put": {
+        "tags": [
+          "necesitados"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Necesitado"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Necesitado"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Necesitado"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "necesitados"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Desaparecidos": {
+        "required": [
+          "apellido",
+          "descripción_persona",
+          "lugar_Desaparicion",
+          "nombre",
+          "telefono"
+        ],
+        "type": "object",
+        "properties": {
+          "id_publicacionDesa": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "edad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fecha_Desaparicion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lugar_Desaparicion": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripción_persona": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "whatsApp": {
+            "type": "string",
+            "nullable": true
+          },
+          "distrito_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "fecha_publicacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "publicado_por": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imagen": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "cuenta": {
+            "$ref": "#/components/schemas/cuentas"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Necesitado": {
+        "required": [
+          "apellido",
+          "direccion",
+          "nombre_nece",
+          "situacion_descripcion"
+        ],
+        "type": "object",
+        "properties": {
+          "id_publicacionNese": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre_nece": {
+            "type": "string",
+            "nullable": true
+          },
+          "apellido": {
+            "type": "string",
+            "nullable": true
+          },
+          "edad": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "distrito_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ayuda_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "situacion_descripcion": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_publicacion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "whatsApp": {
+            "type": "string",
+            "nullable": true
+          },
+          "publicado_por": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "imagen": {
+            "type": "string",
+            "format": "byte",
+            "nullable": true
+          },
+          "cuenta": {
+            "$ref": "#/components/schemas/cuentas"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "cuentas": {
+        "type": "object",
+        "properties": {
+          "id_cuenta": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "usuario": {
+            "type": "string",
+            "nullable": true
+          },
+          "contraseña": {
+            "type": "string",
+            "nullable": true
+          },
+          "necesitados": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Necesitado"
+            },
+            "nullable": true
+          },
+          "desaparecidos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Desaparecidos"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

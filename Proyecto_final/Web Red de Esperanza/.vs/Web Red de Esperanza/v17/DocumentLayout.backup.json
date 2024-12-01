@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7370492-6E6D-4089-AB0F-B4534DD2B8FB}|Web Red de Esperanza.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\red_esperanza_form\\web red de esperanza\\wwwroot\\views\\sin-cuenta\\desaparecidos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7370492-6E6D-4089-AB0F-B4534DD2B8FB}|Web Red de Esperanza.csproj|solutionrelative:wwwroot\\views\\sin-cuenta\\desaparecidos.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7370492-6E6D-4089-AB0F-B4534DD2B8FB}|Web Red de Esperanza.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\red_esperanza_form\\web red de esperanza\\controllers\\desaparecidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7370492-6E6D-4089-AB0F-B4534DD2B8FB}|Web Red de Esperanza.csproj|solutionrelative:controllers\\desaparecidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7370492-6E6D-4089-AB0F-B4534DD2B8FB}|Web Red de Esperanza.csproj|c:\\users\\kevin\\onedrive - universidad gerardo barrios\\1-programaci\u00F3n i\\red_esperanza_form\\web red de esperanza\\wwwroot\\views\\cuenta\\mis_anuncios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7370492-6E6D-4089-AB0F-B4534DD2B8FB}|Web Red de Esperanza.csproj|solutionrelative:wwwroot\\views\\cuenta\\mis_anuncios.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "desaparecidosController.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\Controllers\\desaparecidosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\desaparecidosController.cs",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\Controllers\\desaparecidosController.cs",
+              "RelativeToolTip": "Controllers\\desaparecidosController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T13:21:00.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "desaparecidos.html",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+              "RelativeDocumentMoniker": "wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+              "RelativeToolTip": "wwwroot\\views\\sin-cuenta\\desaparecidos.html",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-29T04:52:40.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "mis_anuncios.html",
+              "DocumentMoniker": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mis_anuncios.html",
+              "RelativeDocumentMoniker": "wwwroot\\views\\cuenta\\mis_anuncios.html",
+              "ToolTip": "C:\\Users\\kevin\\OneDrive - Universidad Gerardo Barrios\\1-Programaci\u00F3n I\\Red_Esperanza_form\\Web Red de Esperanza\\wwwroot\\views\\cuenta\\mis_anuncios.html",
+              "RelativeToolTip": "wwwroot\\views\\cuenta\\mis_anuncios.html",
+              "ViewState": "AgIAAJwDAAAAAAAAAAAIwIAEAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-29T03:39:33.885Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
